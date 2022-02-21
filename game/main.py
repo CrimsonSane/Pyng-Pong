@@ -8,10 +8,10 @@ PY_CLOCK = pygame.time.Clock()
 FPS = 30
 BALL_SPD = 15
 BALL_SIZE = (25,25)
-HITTER_SPD = 45
+HITTER_SPD = 50
 HITTER_SIZE = (15, 105)
-BACKGROUND_COLOR = (61,80,33)
-OBJECT_COLOR = (0,255,0)
+BACKGROUND_COLOR = (0,0,0) #(61,80,33) Really nice green color
+OBJECT_COLOR = (255,255,255)
 
 pygame.init()
 pygame.font.init()
