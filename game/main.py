@@ -94,7 +94,7 @@ self(x,y)______                   ball x must be less than self x2
         """
         
         if self.rect.colliderect(self.ball.rect):
-            self.ball.bounce((self.x - self.ball.x,self.y - self.ball.y))
+            self.ball.bounce((self.x - self.ball.x, (self.y + self.w)/2 - self.ball.y))
         
         self.x = self.rect.x
         self.y = self.rect.y
